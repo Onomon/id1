@@ -1,47 +1,42 @@
 body {
     width: 100%; margin:0%;
-    background-color: azure
+    padding:10;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.75vw;
+  color:whitesmoke;
+    background-color: black
 }
-h1 {
-    text-align: center;
-    font-family: 'Cinzel', serif;
-    font-size:10vw;
-    margin/padding: 5%
 
+h1{
+    width: 100%;
+    padding:100;
+    text-align: left;
+    font-family: 'Cinzel', serif;
+    color: whitesmoke;
+    font-size:2.5vw;
 }
 
 .img-circle{border-radius: 50%;
 margin-left: auto;
-margin-right: auto;}
+margin-right: auto;
+}
 
 img {
     width: 100%;  
 }
-
-p {
-    text-align:left;
-    font-family: 'Arapey', serif;
-    font-size:2vw;
-    margin-left:10%;
-    margin-right:10%;
-
-}
 img#lotus{
-    float:left;
     width:20%;
-    padding:10px       
+    padding:30px;
+    float:left;
 }
 img#rude{
     width:20%;
     display:block;
     margin:auto;
+    float:center:
 }
 img#youth{
     width:20%;
-    padding:
-    display:block;
-    margin-left:auto;
-    margin-right: auto;
-    
-        
+    padding:30px;
+    float:right     
 }
