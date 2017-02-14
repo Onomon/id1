@@ -1,0 +1,47 @@
+body {
+    width: 100%; margin:0%;
+    background-color: azure
+}
+h1 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size:10vw;
+    margin/padding: 5%
+
+}
+
+.img-circle{border-radius: 50%;
+margin-left: auto;
+margin-right: auto;}
+
+img {
+    width: 100%;  
+}
+
+p {
+    text-align:left;
+    font-family: 'Arapey', serif;
+    font-size:2vw;
+    margin-left:10%;
+    margin-right:10%;
+
+}
+img#lotus{
+    float:left;
+    width:20%;
+    padding:10px       
+}
+img#rude{
+    width:20%;
+    display:block;
+    margin:auto;
+}
+img#youth{
+    width:20%;
+    padding:
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    
+        
+}
