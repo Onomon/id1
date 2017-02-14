@@ -22,7 +22,8 @@ margin-right: auto;
 }
 
 img {
-    width: 100%;  
+    width: 100%;
+    padding:70px;
 }
 img#lotus{
     width:20%;
