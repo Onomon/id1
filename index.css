@@ -90,7 +90,7 @@ img{
 img#Headshot{
     width:350px;
     padding:30px;
-    margin-top: -200px;
+    margin-top: -200px; 
     position:static;
     float:right
 }
@@ -131,13 +131,14 @@ footer{
         text-align: center;
          color:whitesmoke;
     }
-    
+    /*
     .exercises{
         width:70%;
-        padding: 20px;
+        padding:20px;
         text-align: left;
         align-content: center
     }
+    */
     .about_me{
         width:70%;
         margin-top: 60%;
@@ -191,4 +192,5 @@ footer{
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
+    
 }
