@@ -97,7 +97,7 @@ img{
 /*slider options*/
 .container{
     width:350px;
-    height:300px;
+    height:420px;
     overflow:hidden;
     position:relative;
 }
@@ -125,7 +125,7 @@ img{
     
      h1{
         width:75%;
-        font-size:25pt;
+        font-size:20pt;
         padding: 1px;
         align-content: center;
         border-color: white;   
@@ -162,6 +162,8 @@ img{
         top:45px;
         left:50px;
     }
+    
+
     }
 }
 
