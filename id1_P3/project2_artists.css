@@ -1,0 +1,167 @@
+body{
+    width:100%;
+    padding:25px;
+    font-family:'Andada', serif;
+    font-size:16pt;
+}
+article{
+    width:35%;
+    padding:16px;
+    border:solid;
+}
+
+#sandy{
+    position:relative;
+    left:45%;
+    bottom:630px;
+}
+
+#kid{
+    position:relative;
+    bottom:550px;
+}
+
+#ash{
+    position:relative;
+    left:45%;
+    bottom:1180px
+}
+
+h1{
+    width: 75%;
+    padding:0%;
+    font-family:'Bungee', sans-serif;
+    font-size: 40pt;
+    text-align: center;
+    position: relative;
+    left:60px;
+    border: solid;
+    border-style: dashed;
+    border-width:thick;
+    border-color:cornflowerblue
+    
+}
+
+h3{
+    width:100%;
+    padding:5px;
+    font-family:'Aldrich',sans-serif;
+    font-size:20pts;
+}
+
+h4{
+    width:100%;
+    padding:10px;
+    font-family:'Andada',serif;
+    font-size:15pts;
+    position:relative;
+    left:-10px;
+    bottom:-10px;
+    border-top:solid;
+}
+
+p{
+    width:100%;
+    padding:10px;
+    position:relative;
+    right:10px;
+    top:-15px;
+    border:dashed;
+    border-left-width:thin;
+    border-right-width: thin;
+    border-left-color: white;
+    border-right-color: white;
+}
+img{
+    width: 25%;
+    height: 150px;
+    padding:5px;
+    display:inline;
+}
+
+.thunmbnail{
+    transition:all .2s ease-in-out;
+}
+
+.thumbnail:hover {
+    position:relative;
+    top:25px;
+    left:35px;
+    width:400px;
+    height:auto;
+    display:flex;
+    z-index:500;
+    transform:scale(1.4)
+}
+
+/*slider options*/
+.container{
+    width:350px;
+    height:300px;
+    overflow:hidden;
+    position:relative;
+}
+.container img{
+    position:absolute;
+    animation: container 20s infinite;
+    opacity:0;
+    width:100%;
+    height:auto;
+}
+@keyframes container{
+    25%{opacity:1;}
+    40%{opacity:0;}}
+.container img:nth-child(4){animation-delay:0s;}
+.container img:nth-child(3){animation-delay:5s;}
+.container img:nth-child(2){animation-delay:10s;}
+.container img:nth-child(1){animation-delay:15s;}
+
+/*Mobile*/
+
+@media only screen and (max-width:500px){
+        body{
+        background-color: cornflowerblue;
+    }
+    
+     h1{
+        width:75%;
+        font-size:25pt;
+        padding: 1px;
+        align-content: center;
+        border-color: white;   
+    }
+    
+    article{
+        width:75%;
+        height: auto;
+        padding:2%;
+        align-content: center;
+        background-color: white
+    }
+    
+    #gregory{
+        position:relative;
+        top:15px;
+        left:50px
+    }
+    
+    #sandy{
+        position:relative;
+        top:30px;
+        left:50
+    }
+    
+    #kid{
+        position:relative;
+        top:40px;
+        left:50px;
+    }
+    
+    #ash{
+        position:relative;
+        top:45px;
+        left:50px;
+    }
+    }
+}
+
